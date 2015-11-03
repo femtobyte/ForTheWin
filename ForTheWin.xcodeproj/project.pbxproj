@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81344EC21BE9466A0031A871 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81344EC11BE9466A0031A871 /* GameManager.swift */; };
 		8195E3281BE3D8DD00CB5802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195E3271BE3D8DD00CB5802 /* AppDelegate.swift */; };
 		8195E32A1BE3D8DD00CB5802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195E3291BE3D8DD00CB5802 /* ViewController.swift */; };
 		8195E32D1BE3D8DD00CB5802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8195E32B1BE3D8DD00CB5802 /* Main.storyboard */; };
 		8195E32F1BE3D8DD00CB5802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8195E32E1BE3D8DD00CB5802 /* Assets.xcassets */; };
 		8195E3321BE3D8DD00CB5802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8195E3301BE3D8DD00CB5802 /* LaunchScreen.storyboard */; };
+		8195E33A1BE44BEA00CB5802 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195E3391BE44BEA00CB5802 /* Character.swift */; };
+		8195E3421BE4895D00CB5802 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195E3411BE4895D00CB5802 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81344EC11BE9466A0031A871 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		8195E3241BE3D8DD00CB5802 /* ForTheWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTheWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8195E3271BE3D8DD00CB5802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8195E3291BE3D8DD00CB5802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		8195E32E1BE3D8DD00CB5802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8195E3311BE3D8DD00CB5802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8195E3331BE3D8DD00CB5802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8195E3391BE44BEA00CB5802 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8195E3411BE4895D00CB5802 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8195E32E1BE3D8DD00CB5802 /* Assets.xcassets */,
 				8195E3301BE3D8DD00CB5802 /* LaunchScreen.storyboard */,
 				8195E3331BE3D8DD00CB5802 /* Info.plist */,
+				8195E3391BE44BEA00CB5802 /* Character.swift */,
+				8195E3411BE4895D00CB5802 /* Player.swift */,
+				81344EC11BE9466A0031A871 /* GameManager.swift */,
 			);
 			path = ForTheWin;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8195E3421BE4895D00CB5802 /* Player.swift in Sources */,
+				8195E33A1BE44BEA00CB5802 /* Character.swift in Sources */,
 				8195E32A1BE3D8DD00CB5802 /* ViewController.swift in Sources */,
 				8195E3281BE3D8DD00CB5802 /* AppDelegate.swift in Sources */,
+				81344EC21BE9466A0031A871 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				8195E3381BE3D8DD00CB5802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
